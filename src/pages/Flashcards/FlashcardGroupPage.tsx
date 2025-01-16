@@ -11,7 +11,7 @@ const FlashcardGroupPage = () => {
 
   if (!currentFlashcardGroup) {
     return (
-      <div className="flex h-full flex-col items-center justify-center gap-2">
+      <div className="flex h-screen flex-col items-center justify-center gap-2">
         <h3 className="font-bold">Flashcard group not found</h3>
         <Button asChild size="sm">
           <Link to="/flashcards/your-flashcards">Go to all Groups</Link>

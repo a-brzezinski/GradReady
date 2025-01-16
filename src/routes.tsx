@@ -5,6 +5,7 @@ import FlashcardsPage from "@/pages/Flashcards/FlashcardsPage";
 import YourFlashcardsPage from "@/pages/Flashcards/YourFlashcardsPage";
 import HomePage from "@/pages/HomePage";
 import FlashcardsLayout from "@/pages/Layouts/FlashcardsLayout";
+import NotFoundPage from "./pages/NotFound/NotFoundPage";
 
 export const router = createBrowserRouter([
   {
@@ -28,5 +29,9 @@ export const router = createBrowserRouter([
         element: <FlashcardGroupPage />,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFoundPage />,
   },
 ]);
