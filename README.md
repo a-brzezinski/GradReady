@@ -12,11 +12,11 @@
 ## 🛠️ Tech Stack
 
 - TypeScript
-- React (via Vite)
+- React
+- shadcn/ui
 - Tailwind CSS
-- PostCSS
 - ESLint & Prettier
-- Netlify (for deployment)
+- Vite
 
 ## 📦 Getting Started
 
