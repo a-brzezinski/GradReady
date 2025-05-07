@@ -13,6 +13,7 @@
 
 - TypeScript
 - React
+- zustand
 - shadcn/ui
 - Tailwind CSS
 - ESLint & Prettier
